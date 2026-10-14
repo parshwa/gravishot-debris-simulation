@@ -1,0 +1,19 @@
+{
+  "name": "gravishot-debris-code-sample",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "format:check": "prettier --check src test package.json tsconfig.json README.md",
+    "format": "prettier --write src test package.json tsconfig.json README.md"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "prettier": "3.9.9"
+  }
+}
